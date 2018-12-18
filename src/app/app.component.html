@@ -1,7 +1,22 @@
-<header>
-  <nav>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/api">API Integration</a>
-  </nav>
+
+<div class="container">
+    <header>
+        
+  <div class="row">
+    <div class="col-sm-12">
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+              <li><a routerLink="/dashboard">Dashboard</a></li>
+              <li> <a routerLink="/api">API Integration</a></li>
+          </ul>
+        </nav>
+    </div>
+  </div>
+
 </header>
-<router-outlet></router-outlet>
+<div class="row">
+  <div class="col-sm-12">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</div>
